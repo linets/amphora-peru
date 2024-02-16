@@ -6,13 +6,12 @@
         "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mochilas_desktop_12.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/ziol-mobile_500x700_adac8284-356f-489f-938c-c15d50ca54d0.png",
+            "image": "shopify:\/\/shop_images\/14_extra-desktopvs2.gif",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/blogs\/news",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -21,34 +20,14 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "40d36210-86aa-4bbd-bbc6-78998c425c99": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bandoleras_desktop_7.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/bandoleras_desktop_7_1_d0d92abf-6fc2-4ed1-a7de-763f515311b5.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "6565bc0f-3939-488b-909e-7616f7e59da3",
-        "40d36210-86aa-4bbd-bbc6-78998c425c99"
+        "6565bc0f-3939-488b-909e-7616f7e59da3"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
@@ -63,213 +42,95 @@
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CAJA-2.jpg",
+            "image": "shopify:\/\/shop_images\/carteras_2_360x_47dce16b-22b6-4ba4-8669-36381af03403.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/pages\/centro-de-ayuda"
+            "link": ""
           }
         },
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CAJA-1.jpg",
+            "image": "shopify:\/\/shop_images\/Mochilas_2_360x_21b2e3d0-daf3-498f-9b5c-dd3b2eaf93ad.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/pages\/contact"
+            "link": ""
           }
         },
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CAJA-2_3bc3045a-33fa-4ce5-974c-a4a88f921940.jpg",
+            "image": "shopify:\/\/shop_images\/Bandoleras_2_1_360x_44ea9bb2-f05d-427f-84c6-efdaf4daaf21.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/all"
+            "link": ""
+          }
+        },
+        "column_wtWDwW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/billeteras_banner_2_360x_d6cd08a9-b2b7-4fcc-aeac-d6821460a66f.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PeWwAD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/joyeria_2_1_360x_8e9e26c8-01b7-4e8f-bb4a-c4f58d530975.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_YY8gG4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Accesorios_4_1_360x_331b83c2-c652-4357-b618-f5edee463abb.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-1",
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-2",
-        "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-3"
+        "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-3",
+        "column_wtWDwW",
+        "column_PeWwAD",
+        "column_YY8gG4"
       ],
       "settings": {
         "force_full_width": true,
-        "title": "",
+        "title": "Shop by Category",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
         "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_desktop": false,
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "17049857032c5ebfc6": {
-      "type": "apps",
-      "blocks": {
-        "retail_rocket_personalization_markups_9d6n4Y": {
-          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
-          "settings": {
-            "rrMarkupCode": "659548da9b15095e98a658f2",
-            "rrEmptyMarkupCode": ""
-          }
-        }
-      },
-      "block_order": [
-        "retail_rocket_personalization_markups_9d6n4Y"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "17049865837c762c30": {
-      "type": "apps",
-      "blocks": {
-        "retail_rocket_personalization_markups_E9pptQ": {
-          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
-          "settings": {
-            "rrMarkupCode": "659550249b15095e98a65945",
-            "rrEmptyMarkupCode": ""
-          }
-        }
-      },
-      "block_order": [
-        "retail_rocket_personalization_markups_E9pptQ"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "170498672219347873": {
-      "type": "apps",
-      "blocks": {
-        "retail_rocket_personalization_markups_V9T4EP": {
-          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
-          "settings": {
-            "rrMarkupCode": "659550384d342b6d85f8bbcb",
-            "rrEmptyMarkupCode": ""
-          }
-        }
-      },
-      "block_order": [
-        "retail_rocket_personalization_markups_V9T4EP"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "b18a84ed-5707-48d2-b87d-d05620258745": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--21506872606913__b18a84ed-5707-48d2-b87d-d05620258745-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/test-ziol-920x644_1.png",
-            "title": "Bandolera Selene",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/collections\/all"
-          }
-        },
-        "template--21506872606913__b18a84ed-5707-48d2-b87d-d05620258745-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/png-transparent-diaper-bags-handbag-macy-s-leather-bag.png",
-            "title": "Bandolera Selene",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--21506872606913__b18a84ed-5707-48d2-b87d-d05620258745-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/png-transparent-diaper-bags-handbag-macy-s-leather-bag.png",
-            "title": "Bandolera Selene",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "e5f2d0c4-f397-441d-8e8e-e8be220ca745": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/png-transparent-diaper-bags-handbag-macy-s-leather-bag.png",
-            "title": "Bandolera Selene",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "5da61721-6766-41fb-bb07-2a65464d7801": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/png-transparent-diaper-bags-handbag-macy-s-leather-bag.png",
-            "title": "Bandolera Selene",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "9530b128-0e96-45fc-8d42-c21b286760c1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/png-transparent-diaper-bags-handbag-macy-s-leather-bag.png",
-            "title": "Bandolera Selene",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--21506872606913__b18a84ed-5707-48d2-b87d-d05620258745-column-1",
-        "template--21506872606913__b18a84ed-5707-48d2-b87d-d05620258745-column-2",
-        "template--21506872606913__b18a84ed-5707-48d2-b87d-d05620258745-column-3",
-        "e5f2d0c4-f397-441d-8e8e-e8be220ca745",
-        "5da61721-6766-41fb-bb07-2a65464d7801",
-        "9530b128-0e96-45fc-8d42-c21b286760c1"
-      ],
-      "custom_css": [
-        ".title-wrapper-with-link {justify-content: center; margin-bottom: 0; margin-top: 50px;}"
-      ],
-      "settings": {
-        "force_full_width": true,
-        "title": "THE ICONS | METALLIC OBSESSION",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
-        "swipe_on_desktop": true,
+        "swipe_on_desktop": false,
         "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 88
+        "padding_top": 44,
+        "padding_bottom": 0
       }
     },
-    "241f4691-2553-4f6e-bc31-ad64aa132e6b": {
+    "image_banner_tpTUMg": {
       "type": "image-banner",
-      "custom_css": [
-        ".banner--content-align-mobile-center {margin-top: 50px;}"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/metalicos_desktop.webp",
+        "image": "shopify:\/\/shop_images\/newcolor-DK_x940_ab1de345-a23e-418c-839c-d4a6fd7f65be.gif",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -282,49 +143,53 @@
         "show_text_below": true
       }
     },
-    "dc802415-49b3-4130-a1bb-b4143927a0d4": {
-      "type": "video",
+    "featured_collection_zGpk8X": {
+      "type": "featured-collection",
       "settings": {
-        "heading": "",
+        "title": "Must haves",
         "heading_size": "h1",
-        "enable_video_looping": true,
-        "custm_video_url": "https:\/\/www.youtube.com\/embed\/rqqa37AjIoI?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=rqqa37AjIoI&enablejsapi=1&origin=https%3A%2F%2Fwww.ziolstore.com&widgetid=1",
-        "video_url": "",
+        "align_title": "center",
         "description": "",
-        "full_width": true,
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "406a65c7-d10a-4160-a30c-634059fa1435": {
+    "multicolumn_kwyjkY": {
       "type": "multicolumn",
       "blocks": {
-        "template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1": {
+        "column_b6GdbQ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1456900.png",
-            "title": "Envíos gratis por compras sobre $49.900 en regiones de Atacama a Los Lagos",
+            "image": "shopify:\/\/shop_images\/1080x1080-carteras_crossbodies.jpg",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "5d62f929-a455-4369-b59a-d72d1f33b2a1": {
+        "column_YHLmqw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/7199880.png",
-            "title": "Cambio y devoluciones sin costo",
-            "text": "<p><\/p><p><\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "7f41631c-b9a8-4930-b18f-ab768cd27ca3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8897944.png",
-            "title": "Compra hasta 6 coutas sin interes",
+            "image": "shopify:\/\/shop_images\/1080x1080-mochilas.jpg",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -332,21 +197,138 @@
         }
       },
       "block_order": [
-        "template--16161306640578__406a65c7-d10a-4160-a30c-634059fa1435-column-1",
-        "5d62f929-a455-4369-b59a-d72d1f33b2a1",
-        "7f41631c-b9a8-4930-b18f-ab768cd27ca3"
-      ],
-      "custom_css": [
-        ".multicolumn {background: #f5f5f5;}",
-        ".multicolumn-card-spacing {width: 135px; height: 135px;}"
+        "column_b6GdbQ",
+        "column_YHLmqw"
       ],
       "settings": {
-        "force_full_width": false,
+        "force_full_width": true,
         "title": "",
-        "heading_size": "h2",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_desktop": false,
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_3JVqHe": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Te recomendamos",
+        "heading_size": "h1",
+        "align_title": "center",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_CNLgkC": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "custm_video_url": "https:\/\/www.youtube.com\/embed\/7UUC21zK6oc?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=7UUC21zK6oc&enablejsapi=1&origin=https%3A%2F%2Fwww.amphora.com.ar&widgetid=1",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_aJLcNC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jeKyUM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Envi_o_a_Domicilio_1_240x_fb52a586-6f9b-4682-aa6d-eef4dcad4af9.png",
+            "title": "<strong>ENVIO A NIVEL NACIONAL<\/strong>",
+            "text": "<p>Despachos a nivel nacional.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nBq4iX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cambios_y_Devoluciones_1_240x_88473078-3d87-499e-90b0-777452f2a71f.png",
+            "title": "<strong>CAMBIOS Y DEVOLUCIONES<\/strong>",
+            "text": "<p>Hasta 30 dias después de recibida la compra<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_HKPHdV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Financiacio_n_1_240x_e3c3e23b-d01d-47d6-8690-d97cb7dcf03d.png",
+            "title": "<strong>COMPRA SEGURA<\/strong>",
+            "text": "<p>Con cualquier medio de pago<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9mV8ax": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pick_up_1_240x_e3e7e410-a157-49a0-980a-9df9706e42ea.png",
+            "title": "<strong>RETIRO EN TIENDA<\/strong>",
+            "text": "<p>Sin costo de envio y en tiendas Amphora<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jeKyUM",
+        "column_nBq4iX",
+        "column_HKPHdV",
+        "column_9mV8ax"
+      ],
+      "custom_css": [
+        ".multicolumn {background: #ffffff;}",
+        ".multicolumn-card-spacing {height: auto;}",
+        ".multicolumn-card__image {width: initial; height: 60px; position: relative; margin: 0 auto;}",
+        ".multicolumn-card__image-wrapper--half-width {width: 100%;}",
+        ".slider-mobile-gutter {margin-top: 60px;}",
+        ".multicolumn .multicolumn-card__image {height: 30px !important;}",
+        ".multicolumn-card__image-wrapper > .media--transparent {padding-bottom: 0 !important;}"
+      ],
+      "settings": {
+        "force_full_width": true,
+        "title": "",
+        "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -354,21 +336,20 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_desktop": false,
-        "swipe_on_mobile": true,
-        "padding_top": 16,
-        "padding_bottom": 20
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 100
       }
     }
   },
   "order": [
     "608f3ae5-b1cf-4082-919f-3ead2712d478",
     "fd8003f0-fa91-4c7d-8f99-2bb233dd3615",
-    "17049857032c5ebfc6",
-    "17049865837c762c30",
-    "170498672219347873",
-    "b18a84ed-5707-48d2-b87d-d05620258745",
-    "241f4691-2553-4f6e-bc31-ad64aa132e6b",
-    "dc802415-49b3-4130-a1bb-b4143927a0d4",
-    "406a65c7-d10a-4160-a30c-634059fa1435"
+    "image_banner_tpTUMg",
+    "featured_collection_zGpk8X",
+    "multicolumn_kwyjkY",
+    "featured_collection_3JVqHe",
+    "video_CNLgkC",
+    "multicolumn_aJLcNC"
   ]
 }
