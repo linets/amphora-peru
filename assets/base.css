@@ -3603,6 +3603,75 @@ details-disclosure>details {
   font-weight: 300;
 }
 
+.custom-link-header-item,
+.header__menu-item {
+  transition: all ease .3s;
+  font-weight: bold !important;
+}
+
+.custom-link-header-item:hover,
+.header__menu-item:hover,
+.header__menu-item:hover>.header__active-menu-item {
+  color: #c7af8c !important;
+  text-decoration: none !important;
+}
+
+.header__menu-item>.header__active-menu-item::after,
+.custom-link-header-item::after {
+  content: "";
+  position: relative;
+  bottom: -2px;
+  height: 2px;
+  width: 0;
+  background: #c7af8c;
+  left: 0;
+  display: block;
+  transition: all ease .3s;
+}
+
+.mega-menu__link--level-2 {
+  text-decoration: none !important;
+}
+
+.header__menu-item:hover>.header__active-menu-item::after,
+.header__menu-item:hover>.custom-link-header-item::after {
+  width: 100%;
+}
+
+.header__menu-item>.header__active-menu-item {
+  text-decoration: none !important;
+  position: relative;
+}
+
+.quick-add__submit {
+  background: rgba(199, 175, 140, 1) !important;
+  border: 1px solid rgba(199, 175, 140, 1) !important;
+  border-color: rgba(199, 175, 140, 1) !important;
+}
+
+.quick-add__submit span {
+  color: #000 !important;
+}
+
+.quick-add__submit::after {
+  border: none !important;
+  --border-offset: 0 !important
+}
+
+.quick-add__submit:hover {
+  background: #000 !important;
+}
+
+.quick-add__submit:hover>span {
+  color: #fff !important;
+}
+
+.card__information .card__heading a {
+  text-decoration: none !important;
+  font-size: 16px !important;
+  color: #333333;
+}
+
 @media (max-width: 768px) {
   .collection__title .title {
     font-size: 20px;
