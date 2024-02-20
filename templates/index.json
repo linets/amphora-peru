@@ -320,7 +320,8 @@
         ".multicolumn-card__image-wrapper--half-width {width: 100%;}",
         ".slider-mobile-gutter {margin-top: 60px;}",
         ".multicolumn .multicolumn-card__image {height: 30px !important;}",
-        ".multicolumn-card__image-wrapper > .media--transparent {padding-bottom: 0 !important;}"
+        ".multicolumn-card__image-wrapper > .media--transparent {padding-bottom: 0 !important;}",
+        ".multicolumn-card__image-wrapper--half-width .media--square {padding-bottom: 0 !important;}"
       ],
       "settings": {
         "force_full_width": true,
