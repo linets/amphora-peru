@@ -3851,6 +3851,10 @@ details-disclosure>details {
   display: none !important;
 }
 
+.list-menu__item--link:hover {
+  color: #c7af8c !important;
+}
+
 @media (max-width: 768px) {
   .collection__title .title {
     font-size: 20px;
