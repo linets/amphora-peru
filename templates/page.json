@@ -6,9 +6,46 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "store_list_nR4b66": {
+      "type": "store-list",
+      "blocks": {
+        "stores_d9pppb": {
+          "type": "stores",
+          "settings": {
+            "name": "AMPHORA - C.C. JOCKEY PLAZA",
+            "address": "Dirección: Av. Javier Prado Este N° 4200 Lima, .",
+            "google": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d487.67255554846207!2d-76.97766958810587!3d-12.086086891441125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7b25e6fdc27%3A0x35bbc9d505d4eda7!2sAmphora!5e0!3m2!1ses!2spe!4v1674583712650!5m2!1ses!2spe"
+          }
+        },
+        "stores_X4WUEe": {
+          "type": "stores",
+          "settings": {
+            "name": "AMPHORA - C.C. REAL PLAZA CENTRO CÍVICO",
+            "address": "Dirección: Inca Garcilaso de la Vega 1337 Lima, .",
+            "google": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1074.0281290435005!2d-77.0380523939834!3d-12.056743213712624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8c6c9696621%3A0x2d86471922de4558!2sAmphora!5e0!3m2!1ses!2spe!4v1674584001334!5m2!1ses!2spe"
+          }
+        },
+        "stores_77zyPH": {
+          "type": "stores",
+          "settings": {
+            "name": "AMPHORA - C.C. REAL PLAZA PRIMAVERA",
+            "address": "Dirección: Av. Angamos 2681 Lima, .",
+            "google": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1205.3178563555798!2d-77.0015344987255!3d-12.109547760033909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c7e6f417facb%3A0xade186955eb968c7!2sAMPHORA!5e0!3m2!1ses!2spe!4v1674584241618!5m2!1ses!2spe"
+          }
+        }
+      },
+      "block_order": [
+        "stores_d9pppb",
+        "stores_X4WUEe",
+        "stores_77zyPH"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "store_list_nR4b66"
   ]
 }
