@@ -1,0 +1,109 @@
+.tabs-store-list {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs-store-list-items {
+    width: 310px;
+    border-right: thin solid #d7d7d7;
+}
+
+.tabs-store-list-iframe {
+    width: calc(100% - 310px);
+    padding: 1.4rem 2.2rem;
+    max-width: 800px;
+}
+
+.tabs-store-list-iframe iframe {
+    width: 100%;
+    min-height: 450px;
+}
+
+.tabs-store-list-items .nav-item {
+    border-color: #ebebeb #d7d7d7 #ebebeb #ebebeb;
+    background-color: #fafafa;
+    color: #999;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: -.025em;
+    padding: 0.85rem 2.2rem;
+    text-align: center;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.3rem;
+    border: 1px solid #ebebeb;
+    margin: 1px 0;
+    transition: all ease .2s;
+    cursor: pointer;
+}
+
+.tabs-store-list-items .nav-item .nav-link {
+    color: #999;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.tabs-store-list-items .nav-item:hover .nav-link {
+    color: #bfa37b
+}
+
+.tabs-store-list-iframe {
+    border-top: thin solid #d7d7d7;
+    border-right: thin solid #d7d7d7;
+    border-bottom: thin solid #d7d7d7;
+}
+
+.tabs-store-list-items .nav-item.active {
+    background: #e61d72 !important;
+}
+
+.tabs-store-list-items .nav-item.active .nav-link {
+    color: #fff !important;
+}
+
+.tabs-store-list-breadcrumb {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dee2e6 !important;
+    margin-bottom: 4rem;
+}
+
+.tabs-store-list-breadcrumb>div,
+.tabs-store-list-breadcrumb>a {
+    max-width: 16rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tabs-store-list-page-width {
+    max-width: 1130px;
+}
+
+.main-page-title.page-title {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .tabs-store-list {
+        flex-direction: column;
+    }
+
+    .tabs-store-list-items,
+    .tabs-store-list-iframe {
+        width: 100%;
+        padding: 0;
+    }
+}
