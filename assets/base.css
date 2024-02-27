@@ -3856,6 +3856,10 @@ details-disclosure>details {
   text-decoration: none !important;
 }
 
+.list-menu__item--link.list-menu__item--active {
+  text-decoration: none !important;
+}
+
 @media (max-width: 768px) {
   .collection__title .title {
     font-size: 20px;
