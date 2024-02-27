@@ -1,0 +1,83 @@
+{%- liquid
+  assign iframeLink = '' | strip_html
+-%}
+
+<div>
+  <div class="section-width w-100">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="w-100 tabs-vertical">
+          <ul class="nav nav-tabs nav-tabs-bg  flex-md-column list-unstyled">
+            {%- for block in section.blocks -%}
+              <li
+                class="nav-item"
+                id="{{ block.id }}"
+                onclick="onSelectedIframe()"
+              >
+                <a class="nav-link">
+                  <span>{{ block.settings.name }}</span>
+                  <span>{{ block.settings.address }}</span>
+                </a>
+              </li>
+            {%- endfor -%}
+          </ul>
+          <div class="tab-content tab-content-border">
+            <iframe
+              src="{{ iframeLink }}"
+              width="600"
+              height="450"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function onSelectedIframe(urlData) {
+      {%- liquid
+          assign iframeLink = urlData
+      -%}
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Store list",
+  "tag": "section",
+  "blocks": [
+    {
+      "type": "stores",
+      "name": "Tiendas",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name",
+          "label": "Nombre"
+        },
+        {
+          "type": "text",
+          "id": "address",
+          "label": "Dirección"
+        },
+        {
+          "type": "text",
+          "id": "google",
+          "label": "Google Maps"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Store list",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}
