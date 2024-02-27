@@ -3853,6 +3853,7 @@ details-disclosure>details {
 
 .list-menu__item--link:hover {
   color: #c7af8c !important;
+  text-decoration: none !important;
 }
 
 @media (max-width: 768px) {
