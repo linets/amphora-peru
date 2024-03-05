@@ -404,7 +404,7 @@
       "first_name": "Nombre",
       "last_name": "Apellido",
       "company": "Empresa",
-      "address1": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302",
+      "address1": "Dirección (Calle, Número y Dpto) ",
       "address2": "referencia",
       "city": "Ciudad",
       "country": "País\/región",
