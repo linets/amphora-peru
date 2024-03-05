@@ -408,7 +408,7 @@
       "address2": "Referencia",
       "city": "Provincia",
       "country": "País\/región",
-      "province": "Provincia",
+      "province": "Departamento",
       "zip": "Distrito",
       "phone": "Teléfono",
       "set_default": "Establecer como dirección predeterminada",
