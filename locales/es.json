@@ -525,17 +525,19 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "company_label": "RUT",
-        "optional_company_label": "RUT",
-        "city_label": "Comuna",
+        "company_label": "DNI \/ RUC \/ C.E",
+        "optional_company_label": "DNI \/ RUC \/ C.E",
+        "city_label": "Provincia",
         "zip_code_label": "Número de casa",
         "zip_code_placeholder": "Número de casa",
         "postal_code_label": "Número de casa",
         "postal_code_placeholder": "Número de casa",
         "postcode_label": "Número de casa",
         "postcode_placeholder": "Número de casa",
-        "address2_label": "Detalles adicionales",
-        "optional_address2_label": "Detalles adicionales"
+        "address2_label": "Referencia",
+        "optional_address2_label": "Referencia",
+        "address1_label": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302",
+        "country_label": "Departamento"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de RUT",
