@@ -104,7 +104,7 @@
     "social_facebook_link": "https:\/\/www.facebook.com\/amphora.peru\/",
     "social_instagram_link": "https:\/\/www.instagram.com\/amphora_peru\/?hl=es",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCPZzSQgSCB9UyxRjF7ngPQg",
-    "social_tiktok_link": "",
+    "social_tiktok_link": "https:\/\/www.tiktok.com\/@amphora.oficial",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -136,6 +136,15 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "3162008616520556380": {
+        "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/main-code\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+        "disabled": false,
+        "settings": {
+          "rrPartnerId": "5f7e22d997a52806c8f6103b"
+        }
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
@@ -400,7 +409,8 @@
   "platform_customizations": {
     "custom_css": [
       ".mega-menu__content > .mega-menu__list > div > img {max-width: 700px;}",
-      "#MainContent {position: relative; z-index: 1;}"
+      "#MainContent {position: relative; z-index: 1;}",
+      ".list-social__link {color: #c7af8c;}"
     ]
   }
 }
