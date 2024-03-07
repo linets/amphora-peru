@@ -45,11 +45,30 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "1709842398fafd6ba7": {
+      "type": "apps",
+      "blocks": {
+        "retail_rocket_personalization_markups_Lkp4p6": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "65df27e78e6a3ed9214d725a",
+            "rrEmptyMarkupCode": ""
+          }
+        }
+      },
+      "block_order": [
+        "retail_rocket_personalization_markups_Lkp4p6"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "banner",
     "17049860622c097c18",
-    "product-grid"
+    "product-grid",
+    "1709842398fafd6ba7"
   ]
 }
