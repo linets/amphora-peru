@@ -2,19 +2,53 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "1709841879b94c6601": {
+      "type": "apps",
+      "blocks": {
+        "retail_rocket_personalization_markups_KrKLQ4": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "65df26f08e6a3ed9214d7220",
+            "rrEmptyMarkupCode": ""
+          }
+        }
+      },
+      "block_order": [
+        "retail_rocket_personalization_markups_KrKLQ4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "ENVÍO GRATIS POR COMPRAS SOBRE $49.900, DE ATACAMA A LOS LAGOS.",
+            "text": "ENVÍO GRATIS por compras superiores a S\/ 249",
+            "link": ""
+          }
+        },
+        "announcement_abGyc6": {
+          "type": "announcement",
+          "settings": {
+            "text": "¡Paga con 3 y 6 cuotas sin intereses con tarjetas BCP, BBVA y Diners !  Aplican T&C | Exclusivo online",
+            "link": ""
+          }
+        },
+        "announcement_z3aEVP": {
+          "type": "announcement",
+          "settings": {
+            "text": "⚠️ 14% OFF EXTRA en Toda la Web con el cupón LOVE ❤️  Aplican T&C",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_abGyc6",
+        "announcement_z3aEVP"
       ],
       "settings": {
         "color_scheme": "accent-1",
@@ -32,7 +66,7 @@
         "logo_position": "top-center",
         "menu": "main-menu",
         "menu_type_desktop": "mega",
-        "sticky_header_type": "reduce-logo-size",
+        "sticky_header_type": "always",
         "show_line_separator": false,
         "color_scheme": "background-1",
         "menu_color_scheme": "background-1",
@@ -46,6 +80,7 @@
     }
   },
   "order": [
+    "1709841879b94c6601",
     "announcement-bar",
     "header"
   ]
