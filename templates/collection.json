@@ -11,16 +11,16 @@
     "17049860622c097c18": {
       "type": "apps",
       "blocks": {
-        "retail_rocket_personalization_markups_gwbNXM": {
+        "retail_rocket_personalization_markups_F8JfnN": {
           "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
           "settings": {
-            "rrMarkupCode": "65954f5a4d342b6d85f8bbb2",
+            "rrMarkupCode": "65df27148e6a3ed9214d722c",
             "rrEmptyMarkupCode": ""
           }
         }
       },
       "block_order": [
-        "retail_rocket_personalization_markups_gwbNXM"
+        "retail_rocket_personalization_markups_F8JfnN"
       ],
       "settings": {
         "include_margins": true
