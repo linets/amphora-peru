@@ -108,6 +108,9 @@
         "column_PeWwAD",
         "column_YY8gG4"
       ],
+      "custom_css": [
+        ".multicolumn-card {margin: 0 5px}"
+      ],
       "settings": {
         "force_full_width": true,
         "title": "Shop by Category",
