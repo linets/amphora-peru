@@ -109,7 +109,7 @@
         "column_YY8gG4"
       ],
       "custom_css": [
-        ".multicolumn-card {margin: 0 5px}"
+        ".multicolumn-card {margin: 0 5px;}"
       ],
       "settings": {
         "force_full_width": true,
@@ -275,7 +275,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "trinus",
+        "collection": "carteras",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
