@@ -1,62 +1,63 @@
 {{ 'component-store-list.css' | asset_url | stylesheet_tag }}
-<div class="page-width tabs-store-list-page-width">
-  <div class="tabs-store-list-breadcrumb">
-    <a href="/">Inicio</a>
-    <div>/</div>
-    <div>Tiendas</div>
-  </div>
-  <div class="section-width w-100">
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <div class="w-100 tabs-vertical tabs-store-list">
-          <ul class="nav nav-tabs nav-tabs-bg  flex-md-column list-unstyled tabs-store-list-items">
-            {%- for block in section.blocks -%}
-              <li
-                class="nav-item "
-                id="{{ block.id }}"
-                onclick="onSelectedIframe('{{ block.settings.google }}', '{{ block.id }}')"
-              >
-                <div class="nav-link">
-                  {{ block.settings.name }}
-                  <br>
-                  {{ block.settings.address }}
-                </div>
-              </li>
-            {%- endfor -%}
-          </ul>
-          <div class="tab-content tab-content-border tabs-store-list-iframe">
-            <iframe
-              src="{{ section.blocks[0].settings.google }}"
-              width="600"
-              height="450"
-              style="border:0;"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              id="iframe-mapa"
-            ></iframe>
+{%- if section.settings.page.title == "store list" -%}
+  <div class="page-width tabs-store-list-page-width">
+    <div class="tabs-store-list-breadcrumb">
+      <a href="/">Inicio</a>
+      <div>/</div>
+      <div>Tiendas</div>
+    </div>
+    <div class="section-width w-100">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <div class="w-100 tabs-vertical tabs-store-list">
+            <ul class="nav nav-tabs nav-tabs-bg  flex-md-column list-unstyled tabs-store-list-items">
+              {%- for block in section.blocks -%}
+                <li
+                  class="nav-item "
+                  id="{{ block.id }}"
+                  onclick="onSelectedIframe('{{ block.settings.google }}', '{{ block.id }}')"
+                >
+                  <div class="nav-link">
+                    {{ block.settings.name }}
+                    <br>
+                    {{ block.settings.address }}
+                  </div>
+                </li>
+              {%- endfor -%}
+            </ul>
+            <div class="tab-content tab-content-border tabs-store-list-iframe">
+              <iframe
+                src="{{ section.blocks[0].settings.google }}"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                id="iframe-mapa"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-
-<script>
-  function onSelectedIframe(urlData, id) {
-    const iframeContent = document.getElementById('iframe-mapa');
-    const itemSelected = document.getElementById(id);
-    iframeContent.src = urlData;
-    const boxes = document.querySelectorAll('.tabs-store-list-items .nav-item');
-    boxes.forEach(function (box) {
-      box.classList.remove('active');
-    });
-    itemSelected.classList.add('active');
-  }
-
-  onSelectedIframe('{{ section.blocks[0].settings.google }}', '{{ section.blocks[0].id }}');
-</script>
-
+  
+  <script>
+    function onSelectedIframe(urlData, id) {
+      const iframeContent = document.getElementById('iframe-mapa');
+      const itemSelected = document.getElementById(id);
+      iframeContent.src = urlData;
+      const boxes = document.querySelectorAll('.tabs-store-list-items .nav-item');
+      boxes.forEach(function (box) {
+        box.classList.remove('active');
+      });
+      itemSelected.classList.add('active');
+    }
+  
+    onSelectedIframe('{{ section.blocks[0].settings.google }}', '{{ section.blocks[0].id }}');
+  </script>
+{%- endif -%}
 {% schema %}
 {
   "name": "Store list",
