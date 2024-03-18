@@ -18,6 +18,10 @@
   display: flex;
 }
 
+.title-wrapper-with-link .inline-richtext,
+.collection__title .orientation-text--center {
+  font-weight: 400;
+}
 
 @media screen and (max-width: 749px) {
   .multicolumn .title-wrapper-with-link {
