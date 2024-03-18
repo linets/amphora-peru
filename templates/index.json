@@ -109,7 +109,8 @@
         "column_YY8gG4"
       ],
       "custom_css": [
-        ".multicolumn-card {margin: 0 5px;}"
+        "h2{font-weight: 100; font-family: system-ui; font-size: 30.8px;}",
+        ",.multicolumn-card {margin: 0 5px;}"
       ],
       "settings": {
         "force_full_width": true,
