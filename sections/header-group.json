@@ -62,6 +62,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        ".custom-link-header-item {font-weight: 400 !important;}"
+      ],
       "settings": {
         "logo_position": "top-center",
         "menu": "main-menu",
