@@ -3843,7 +3843,7 @@ details-disclosure>details {
 .cart__checkout-button.button {
  /* background: #fff !important;*/
   border: 1px solid #c7af8c;
-  color: #c7af8c;
+ /* color: #c7af8c;*/
 }
 
 .cart__checkout-button.button::after,
