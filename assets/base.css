@@ -3797,7 +3797,7 @@ details-disclosure>details {
 
 .product__info-wrapper .product-form__submit span {
   font-size: 1.4rem;
-  color: #c7af8c !important;
+  /*color: #c7af8c !important;*/
 }
 
 .product__info-wrapper .product-form__submit {
