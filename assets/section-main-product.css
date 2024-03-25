@@ -1759,7 +1759,7 @@ div[id^="price-template"] {
 }
 
 .product-form__submit {
-  background: #fff !important;
+  /*background: #fff !important;*/
   color: #3c3c3b;
   font-size: 18px;
   width: auto;
