@@ -490,10 +490,22 @@
             <h2 class="totals__total">{{ 'sections.cart.estimated_total' | t }}</h2>
             <p class="totals__total-value">{{ cart.total_price | money_with_currency }}</p>
           </div>
-      
+
           <small class="tax-note caption-large rte">
-          {%- if 1>2   -%}
-            {% #accid-comentado %}
+            {% # accid-custom peru %}
+            <div class=" rte terms-checkbox">
+              <label>
+                <input id="terminos-chekout" class="agree-terms" type="checkbox" name="agree_terms" onclick="term()">
+
+                <span
+                  >Estoy de acuerdo con los
+                  <a href="/pages/terminos-y-condiciones" target="_blank"> <u>Términos y Condiciones</u> </a>
+                </span>
+              </label>
+            </div>
+
+            {%- if 1 > 2 -%}
+              {% # accid-comentado %}
               {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
                 {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
               {%- elsif cart.taxes_included -%}
@@ -503,9 +515,8 @@
               {%- else -%}
                 {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
               {%- endif -%}
-          {%- endif -%}
+            {%- endif -%}
           </small>
-        
         </div>
 
         <!-- CTAs -->
@@ -516,11 +527,10 @@
               {{ 'sections.cart.update' | t }}
             </button>
           </noscript>
-          <a class="cart__checkout-button button" href="/cart">
-           Ver carrito
-          </a>
+          <a class="cart__checkout-button button" href="/cart"> Ver carrito </a>
           <button
             type="submit"
+            disabled
             id="CartDrawer-Checkout"
             class="cart__checkout-button button"
             name="checkout"
@@ -538,6 +548,18 @@
 </cart-drawer>
 
 <script>
+  function term() {
+    var chterminos = document.getElementById('terminos-chekout').checked;
+    var chterminos2 = document.getElementById('terminos').checked;
+
+    if (chterminos || chterminos2) {
+      document.querySelector('#CartDrawer-Checkout').disabled = false;
+      document.querySelector('#checkout').disabled = false;
+    } else {
+      document.querySelector('#CartDrawer-Checkout').disabled = true;
+      document.querySelector('#checkout').disabled = true;
+    }
+  }
   document.addEventListener('DOMContentLoaded', function () {
     function isIE() {
       const ua = window.navigator.userAgent;
