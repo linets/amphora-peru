@@ -539,7 +539,8 @@
         "address1_label": "Dirección (Calle, Número y Dpto) - Ej.: Calle los tulipanes 760, Dpto 302",
         "country_label": "Pais \/ region",
         "region_label": "Departamento",
-        "region_placeholder": "Departamento"
+        "region_placeholder": "Departamento",
+        "last_name_label": "Apellido \/ Razon social"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de RUT",
