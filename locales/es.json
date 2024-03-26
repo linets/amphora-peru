@@ -540,7 +540,8 @@
         "country_label": "Pais \/ region",
         "region_label": "Departamento",
         "region_placeholder": "Departamento",
-        "last_name_label": "Apellido \/ Razón social"
+        "last_name_label": "Apellido \/ Razón social",
+        "optional_last_name_label": "Apellido \/ Razón social"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de RUT",
