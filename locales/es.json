@@ -540,13 +540,16 @@
         "country_label": "Pais \/ region",
         "region_label": "Departamento",
         "region_placeholder": "Departamento",
-        "last_name_label": "Apellido \/ Razon social"
+        "last_name_label": "Apellido \/ Razón social"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de RUT",
         "address_city_blank": "Introduce una comuna",
         "address_zip_blank": "Introduce un número de casa"
       }
+    },
+    "attributes": {
+      "last_name": "Apellido \/ Razón social"
     }
   }
 }
