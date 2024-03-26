@@ -46,14 +46,16 @@
                   aria-describedby="a11y-refresh-page-message"
                 >
                   {%- for option in collection.sort_options -%}
-                    <option
-                      value="{{ option.value | escape }}"
-                      {% if option.value == sort_by %}
-                        selected="selected"
+                    {%- if option.value == "best-selling" or option.value == "price-ascending" or option.value == "price-descending"  %}
+                          <option
+                            value="{{ option.value | escape }}"
+                            {% if option.value == sort_by %}
+                              selected="selected"
+                            {% endif %}
+                          >
+                            {{ option.name | escape }}
+                          </option>
                       {% endif %}
-                    >
-                      {{ option.name | escape }}
-                    </option>
                   {%- endfor -%}
                 </select>
                 {% render 'icon-caret' %}
