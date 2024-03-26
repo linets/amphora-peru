@@ -67,7 +67,7 @@
                   {% # accid-custom peru %}
                   <div class=" rte terms-checkbox">
                     <label>
-                      <input id="terminos" class="agree-terms" type="checkbox" name="agree_terms" onclick="term()">
+                      <input id="terminos" class="agree-terms" type="checkbox" name="agree_terms" onclick="term(this);">
 
                       <span
                         >Estoy de acuerdo con los
@@ -131,11 +131,8 @@
 </div>
 
 <script>
-  function term() {
-    var chterminos = document.getElementById('terminos-chekout').checked;
-    var chterminos2 = document.getElementById('terminos').checked;
-
-    if (chterminos || chterminos2) {
+  function term(hil) {
+    if (hil.checked) {
       document.querySelector('#CartDrawer-Checkout').disabled = false;
       document.querySelector('#checkout').disabled = false;
     } else {
