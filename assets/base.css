@@ -3772,7 +3772,7 @@ details-disclosure>details {
 
 .product--medium .product__info-wrapper .price-item--regular {
   font-size: 1.8rem !important;
-  color: #999 !important;
+  color: #999 ;
 }
 
 .product--medium .product__info-wrapper .price.price--on-sale .price__sale {
