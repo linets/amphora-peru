@@ -91,7 +91,7 @@
         "collapsible_tab_pFzr9M"
       ],
       "custom_css": [
-        "product--medium .product__info-wrapper .price-item--regular {color:black;}"
+        ".product--medium .product__info-wrapper .price-item--regular {color: black;}"
       ],
       "settings": {
         "enable_sticky_info": true,
