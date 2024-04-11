@@ -493,22 +493,7 @@
 
           <small class="tax-note caption-large rte">
             {% # accid-custom peru %}
-            <div class=" rte terms-checkbox">
-              <label>
-                <input
-                  id="terminos-chekout"
-                  class="agree-terms"
-                  type="checkbox"
-                  name="agree_terms"
-                  onclick="term(this)"
-                >
-
-                <span
-                  >Estoy de acuerdo con los
-                  <a href="/pages/terminos-y-condiciones" target="_blank"> <u>Términos y Condiciones</u> </a>
-                </span>
-              </label>
-            </div>
+            
 
             {%- if 1 > 2 -%}
               {% # accid-comentado %}
@@ -533,22 +518,23 @@
               {{ 'sections.cart.update' | t }}
             </button>
           </noscript>
-          {%- if 1 > 2 -%}
+         
             <a class="cart__checkout-button button" href="/cart"> Ver carrito </a>
-          {%- endif -%}
-          <button
-            type="submit"
-            disabled
-            id="CartDrawer-Checkout"
-            class="cart__checkout-button button"
-            name="checkout"
-            form="CartDrawer-Form"
-            {% if cart == empty %}
-              disabled©
-            {% endif %}
-          >
-            {{ 'sections.cart.checkout' | t }}
-          </button>
+       {%- if 1 > 2 -%}
+            <button
+              type="submit"
+              disabled
+              id="CartDrawer-Checkout"
+              class="cart__checkout-button button"
+              name="checkout"
+              form="CartDrawer-Form"
+              {% if cart == empty %}
+                disabled©
+              {% endif %}
+            >
+              {{ 'sections.cart.checkout' | t }}
+            </button>
+        {%- endif -%}
         </div>
       </div>
     </div>
