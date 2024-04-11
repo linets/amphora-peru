@@ -90,6 +90,9 @@
         "collapsible-row-1",
         "collapsible_tab_pFzr9M"
       ],
+      "custom_css": [
+        "product--medium .product__info-wrapper .price-item--regular {color:black;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "",
