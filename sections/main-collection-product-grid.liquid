@@ -46,7 +46,7 @@
                   aria-describedby="a11y-refresh-page-message"
                 >
                   {%- for option in collection.sort_options -%}
-                    {%- if option.value == "best-selling" or option.value == "price-ascending" or option.value == "price-descending"  %}
+                    {%- if  option.value == "price-ascending" or option.value == "price-descending"  %}
                           <option
                             value="{{ option.value | escape }}"
                             {% if option.value == sort_by %}
