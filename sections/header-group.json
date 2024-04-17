@@ -39,6 +39,7 @@
         },
         "announcement_z3aEVP": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "⚠️ 14% OFF EXTRA en Toda la Web con el cupón LOVE ❤️  Aplican T&C",
             "link": ""
