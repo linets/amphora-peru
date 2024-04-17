@@ -6,12 +6,13 @@
         "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/14_extra-desktopvs2.gif",
+            "image": "shopify:\/\/shop_images\/new-dk.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/new-mb.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify:\/\/collections\/carteras",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -20,10 +21,30 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_PieiRi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner-30_OFF_1.gif",
+            "image_mobile": "shopify:\/\/shop_images\/Banner-30_OFF-mobile.gif",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "6565bc0f-3939-488b-909e-7616f7e59da3"
+        "6565bc0f-3939-488b-909e-7616f7e59da3",
+        "slide_PieiRi"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -109,7 +130,7 @@
         "column_YY8gG4"
       ],
       "custom_css": [
-        "h2{font-weight: 100; font-family: system-ui; font-size: 30.8px;}",
+        "h2 {font-weight: 100; font-family: system-ui; font-size: 30.8px;}",
         ",.multicolumn-card {margin: 0 5px;}"
       ],
       "settings": {
@@ -134,7 +155,8 @@
     "image_banner_tpTUMg": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/newcolor-DK_x940_ab1de345-a23e-418c-839c-d4a6fd7f65be.gif",
+        "image": "shopify:\/\/shop_images\/Banner_Secundario_desk.jpg",
+        "image_2": "shopify:\/\/shop_images\/Banner_Secundario_Mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
