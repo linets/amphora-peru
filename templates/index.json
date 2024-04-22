@@ -132,7 +132,8 @@
       "custom_css": [
         "h2 {font-weight: 100; font-family: system-ui; font-size: 30.8px;}",
         ".multicolumn-card {margin: 0 5px;}",
-        ".slider-component {margin-bottom: 46px;}"
+        ".slider-component {margin-bottom: 46px;}",
+        ".title-wrapper-with-link {justify-content: center;}"
       ],
       "settings": {
         "force_full_width": true,
