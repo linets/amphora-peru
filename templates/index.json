@@ -155,8 +155,46 @@
         "padding_bottom": 40
       }
     },
+    "slideshow_yVhynx": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_hiKTCy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Secundario_desk.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Banner_Secundario_Mobile.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_hiKTCy"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner_tpTUMg": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Banner_Secundario_desk.jpg",
         "image_overlay_opacity": 0,
@@ -416,48 +454,12 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "slideshow_yVhynx": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_hiKTCy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_Secundario_desk.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_Secundario_Mobile.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_hiKTCy"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
     "608f3ae5-b1cf-4082-919f-3ead2712d478",
     "fd8003f0-fa91-4c7d-8f99-2bb233dd3615",
+    "slideshow_yVhynx",
     "image_banner_tpTUMg",
     "featured_collection_zGpk8X",
     "multicolumn_kwyjkY",
@@ -465,7 +467,6 @@
     "video_CNLgkC",
     "featured_collection_byTV9d",
     "multicolumn_aJLcNC",
-    "170984209487822a28",
-    "slideshow_yVhynx"
+    "170984209487822a28"
   ]
 }
