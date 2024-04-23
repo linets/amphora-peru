@@ -45,6 +45,7 @@
                   id="SortBy"
                   aria-describedby="a11y-refresh-page-message"
                 >
+                  {% comment %}
                   {%- for option in collection.sort_options -%}
                     {%- if option.value == "best-selling" or option.value == "price-ascending" or option.value == "price-descending" or option.value == "created-descending" or option.value == "sale-descending"  %}
                           <option
@@ -57,6 +58,12 @@
                           </option>
                       {% endif %}
                   {%- endfor -%}
+                  {% endcomment %}                  
+                  <option value="best-selling" {% if sort_by == 'best-selling' %}selected="selected"{% endif %}>Más vendido</option>
+                  <option value="price-descending" {% if sort_by == 'price-descending' %}selected="selected"{% endif %}>Mayor precio a Menor precio</option>
+                  <option value="price-ascending" {% if sort_by == 'price-ascending' %}selected="selected"{% endif %}>Menor precio a Mayor precio</option>
+                  <option value="created-descending" {% if sort_by == 'created-descending' %}selected="selected"{% endif %}>Novedades</option>
+                  <option value="sale-descending" {% if sort_by == 'sale-descending' %}selected="selected"{% endif %}>Destacados</option>
                 </select>
                 {% render 'icon-caret' %}
               </div>
