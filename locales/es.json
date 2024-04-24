@@ -541,7 +541,8 @@
         "region_label": "Departamento",
         "region_placeholder": "Departamento",
         "last_name_label": "Apellido \/ Razón social",
-        "optional_last_name_label": "Apellido \/ Razón social"
+        "optional_last_name_label": "Apellido \/ Razón social",
+        "optional_first_name_label": "Nombre (Si requiere factura dejar vacío este campo)"
       },
       "field_errors": {
         "address_company_blank": "Introduce un número de documento",
