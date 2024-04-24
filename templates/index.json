@@ -40,35 +40,15 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_AYNcRV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-30_OFF_1.gif",
-            "image_mobile": "shopify:\/\/shop_images\/Banner-30_OFF-mobile.gif",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "6565bc0f-3939-488b-909e-7616f7e59da3",
-        "slide_PieiRi",
-        "slide_AYNcRV"
+        "slide_PieiRi"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
