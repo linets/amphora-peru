@@ -83,61 +83,61 @@
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/carteras_2_360x_47dce16b-22b6-4ba4-8669-36381af03403.jpg",
+            "image": "shopify:\/\/shop_images\/cartera_AW24_vs_2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/carteras-carteras-dos-asas"
           }
         },
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mochilas_2_360x_21b2e3d0-daf3-498f-9b5c-dd3b2eaf93ad.jpg",
+            "image": "shopify:\/\/shop_images\/mochila-AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/mochilas"
           }
         },
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bandoleras_2_1_360x_44ea9bb2-f05d-427f-84c6-efdaf4daaf21.jpg",
+            "image": "shopify:\/\/shop_images\/crossbody_AW24_2.0.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/carteras-crossbodies"
           }
         },
         "column_wtWDwW": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/billeteras_banner_2_360x_d6cd08a9-b2b7-4fcc-aeac-d6821460a66f.png",
+            "image": "shopify:\/\/shop_images\/billeteras_AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/billeteras"
           }
         },
         "column_PeWwAD": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/joyeria_2_1_360x_8e9e26c8-01b7-4e8f-bb4a-c4f58d530975.jpg",
+            "image": "shopify:\/\/shop_images\/joyeria_AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/accesorios-joyeria"
           }
         },
         "column_YY8gG4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Accesorios_4_1_360x_331b83c2-c652-4357-b618-f5edee463abb.jpg",
+            "image": "shopify:\/\/shop_images\/hanging_AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/accesorios"
           }
         }
       },
@@ -178,25 +178,6 @@
     "slideshow_yVhynx": {
       "type": "slideshow",
       "blocks": {
-        "slide_hiKTCy": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_Secundario_desk.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_Secundario_Mobile.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/collections\/new-arrivals",
-            "button_style_secondary": false,
-            "box_align": "middle-right",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_CeHwqL": {
           "type": "slide",
           "settings": {
@@ -215,11 +196,30 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_hiKTCy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Banner_Secundario_desk.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Banner_Secundario_Mobile.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/new-arrivals",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_hiKTCy",
-        "slide_CeHwqL"
+        "slide_CeHwqL",
+        "slide_hiKTCy"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -285,21 +285,21 @@
         "column_b6GdbQ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1080x1080-carteras_crossbodies.jpg",
+            "image": "shopify:\/\/shop_images\/CARTERAS_CROSSBODIES--AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/carteras-crossbodies"
           }
         },
         "column_YHLmqw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1080x1080-mochilas.jpg",
+            "image": "shopify:\/\/shop_images\/MOCHILAS-AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/mochilas"
           }
         }
       },
