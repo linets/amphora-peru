@@ -40,11 +40,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_tCzm63": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_desk-chocolate_1.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner_MB-Chocolate.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "6565bc0f-3939-488b-909e-7616f7e59da3",
-        "slide_PieiRi"
+        "slide_PieiRi",
+        "slide_tCzm63"
       ],
       "settings": {
         "layout": "full_bleed",
