@@ -167,7 +167,7 @@
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/carteras-canguros",
+            "link": "shopify:\/\/collections\/new-arrivals",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": true,
@@ -176,10 +176,30 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_CeHwqL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MOMCOLLECTION-BANNER.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/MOMCOLLECTION-MOBILE.jpg",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify:\/\/collections\/mom-collection",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_hiKTCy"
+        "slide_hiKTCy",
+        "slide_CeHwqL"
       ],
       "settings": {
         "layout": "full_bleed",
