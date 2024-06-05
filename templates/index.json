@@ -5,6 +5,7 @@
       "blocks": {
         "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/new-dk.jpg",
             "image_mobile": "shopify:\/\/shop_images\/new-mb.jpg",
@@ -25,13 +26,13 @@
         "slide_PieiRi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner-30_OFF_1.gif",
-            "image_mobile": "shopify:\/\/shop_images\/Banner-30_OFF-mobile.gif",
+            "image": "shopify:\/\/shop_images\/MID_SEASON_SALE-DK.gif",
+            "image_mobile": "shopify:\/\/shop_images\/MID_SEASON_SALE-MB.gif",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections",
+            "link": "shopify:\/\/collections\/sale",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
