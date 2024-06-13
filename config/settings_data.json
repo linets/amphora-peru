@@ -143,6 +143,18 @@
         "settings": {
           "rrPartnerId": "5f7e22d997a52806c8f6103b"
         }
+      },
+      "13699062826762247329": {
+        "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/tracking-codes\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+        "disabled": false,
+        "settings": {
+          "rrExitIntentBar": "",
+          "ignoredCollections": [
+
+          ],
+          "tagstosend": "",
+          "metafieldtosend": ""
+        }
       }
     },
     "color_schemes": {
