@@ -1722,7 +1722,7 @@ div[id^="price-template"] {
   height: 27px;
   border-radius: 0;
   font-size: 18px;
-  padding: 0 10px;
+  /*padding: 0 10px;*/
   display: block;
   margin-bottom: 0 !important;
   line-height: 24px;
