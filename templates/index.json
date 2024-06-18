@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "608f3ae5-b1cf-4082-919f-3ead2712d478": {
@@ -251,7 +260,25 @@
         "show_text_below": true
       }
     },
-    "featured_collection_zGpk8X": {
+    "1718739951a016ac1d": {
+      "type": "apps",
+      "blocks": {
+        "retail_rocket_personalization_markups_izrt3q": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "65df285b682ae6945d3f6a02",
+            "rrEmptyMarkupCode": ""
+          }
+        }
+      },
+      "block_order": [
+        "retail_rocket_personalization_markups_izrt3q"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_collection_4FUai8": {
       "type": "featured-collection",
       "settings": {
         "title": "Must haves",
@@ -503,7 +530,8 @@
     "fd8003f0-fa91-4c7d-8f99-2bb233dd3615",
     "slideshow_yVhynx",
     "image_banner_tpTUMg",
-    "featured_collection_zGpk8X",
+    "1718739951a016ac1d",
+    "featured_collection_4FUai8",
     "multicolumn_kwyjkY",
     "featured_collection_3JVqHe",
     "video_CNLgkC",
