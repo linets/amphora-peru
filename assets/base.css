@@ -3698,6 +3698,7 @@ details-disclosure>details {
   position: absolute;
   left: 10px;
   top: 10px;
+  font-size: 12px;
 }
 
 .card--media:hover {
