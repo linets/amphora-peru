@@ -14,7 +14,6 @@
       "blocks": {
         "slide_i8paid": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/extra20dk.gif",
             "image_mobile": "shopify:\/\/shop_images\/extra20mb.gif",
@@ -54,6 +53,7 @@
         },
         "slide_PieiRi": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/MID_SEASON_SALE-DK.gif",
             "image_mobile": "shopify:\/\/shop_images\/MID_SEASON_SALE-MB.gif",
