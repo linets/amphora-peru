@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -23,6 +32,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_z3aEVP": {
+          "type": "announcement",
+          "settings": {
+            "text": "⚡20% ADICIONAL con el cupón SAVE20  | Exclusivo Online",
+            "link": "shopify:\/\/collections\/all-2"
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -36,20 +52,12 @@
             "text": "¡Paga con 3 y 6 cuotas sin intereses con tarjetas BCP, BBVA y Diners !  Aplican T&C | Exclusivo online",
             "link": ""
           }
-        },
-        "announcement_z3aEVP": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "⚠️ 14% OFF EXTRA en Toda la Web con el cupón LOVE ❤️  Aplican T&C",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "announcement_z3aEVP",
         "announcement-bar-0",
-        "announcement_abGyc6",
-        "announcement_z3aEVP"
+        "announcement_abGyc6"
       ],
       "settings": {
         "color_scheme": "accent-1",
