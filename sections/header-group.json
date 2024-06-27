@@ -34,6 +34,7 @@
       "blocks": {
         "announcement_z3aEVP": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "¡ÚLTIMO DÍA! ⚡20% ADICIONAL con el cupón SAVE20  | Exclusivo Online",
             "link": "shopify:\/\/collections\/all-2"
