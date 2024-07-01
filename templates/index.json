@@ -536,22 +536,21 @@
             "rrMarkupCode": "65df27048e6a3ed9214d722b",
             "rrEmptyMarkupCode": ""
           }
+        },
+        "retail_rocket_personalization_markups_dXWTew": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "65df28388e6a3ed9214d725e",
+            "rrEmptyMarkupCode": ""
+          }
         }
       },
       "block_order": [
-        "retail_rocket_personalization_markups_DKtqmL"
+        "retail_rocket_personalization_markups_DKtqmL",
+        "retail_rocket_personalization_markups_dXWTew"
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "custom_liquid_VgrHdP": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div data-retailrocket-markup-block=\"65df28388e6a3ed9214d725e\" ><\/div>\n\n<div data-retailrocket-markup-block=\"65df285b682ae6945d3f6a02\" ><\/div>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
@@ -567,7 +566,6 @@
     "video_CNLgkC",
     "featured_collection_byTV9d",
     "multicolumn_aJLcNC",
-    "170984209487822a28",
-    "custom_liquid_VgrHdP"
+    "170984209487822a28"
   ]
 }
