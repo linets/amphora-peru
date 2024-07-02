@@ -384,6 +384,24 @@
         "padding_bottom": 36
       }
     },
+    "170984209487822a28": {
+      "type": "apps",
+      "blocks": {
+        "retail_rocket_personalization_markups_dXWTew": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "65df28388e6a3ed9214d725e",
+            "rrEmptyMarkupCode": ""
+          }
+        }
+      },
+      "block_order": [
+        "retail_rocket_personalization_markups_dXWTew"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "featured_collection_3JVqHe": {
       "type": "featured-collection",
       "disabled": true,
@@ -537,32 +555,6 @@
         "padding_top": 36,
         "padding_bottom": 100
       }
-    },
-    "170984209487822a28": {
-      "type": "apps",
-      "blocks": {
-        "retail_rocket_personalization_markups_DKtqmL": {
-          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
-          "settings": {
-            "rrMarkupCode": "65df27048e6a3ed9214d722b",
-            "rrEmptyMarkupCode": ""
-          }
-        },
-        "retail_rocket_personalization_markups_dXWTew": {
-          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
-          "settings": {
-            "rrMarkupCode": "65df28388e6a3ed9214d725e",
-            "rrEmptyMarkupCode": ""
-          }
-        }
-      },
-      "block_order": [
-        "retail_rocket_personalization_markups_DKtqmL",
-        "retail_rocket_personalization_markups_dXWTew"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -573,10 +565,10 @@
     "1718739951a016ac1d",
     "featured_collection_4FUai8",
     "multicolumn_kwyjkY",
+    "170984209487822a28",
     "featured_collection_3JVqHe",
     "video_CNLgkC",
     "featured_collection_byTV9d",
-    "multicolumn_aJLcNC",
-    "170984209487822a28"
+    "multicolumn_aJLcNC"
   ]
 }
