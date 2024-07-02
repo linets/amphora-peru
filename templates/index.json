@@ -290,10 +290,18 @@
             "rrMarkupCode": "65df285b682ae6945d3f6a02",
             "rrEmptyMarkupCode": ""
           }
+        },
+        "retail_rocket_personalization_markups_ExR6wz": {
+          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "settings": {
+            "rrMarkupCode": "65df27048e6a3ed9214d722b",
+            "rrEmptyMarkupCode": ""
+          }
         }
       },
       "block_order": [
-        "retail_rocket_personalization_markups_izrt3q"
+        "retail_rocket_personalization_markups_izrt3q",
+        "retail_rocket_personalization_markups_ExR6wz"
       ],
       "settings": {
         "include_margins": true
