@@ -21,6 +21,14 @@
             "link": "shopify:\/\/collections\/cyber-amphora"
           }
         },
+        "announcement_hf6Kth": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "¡SOLO HOY! ⚡PRE CYBER + 10% ADICIONAL  con el cupón CYBER10⚡",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
@@ -38,6 +46,7 @@
       },
       "block_order": [
         "announcement_z3aEVP",
+        "announcement_hf6Kth",
         "announcement-bar-0",
         "announcement_abGyc6"
       ],

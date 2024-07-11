@@ -12,6 +12,26 @@
     "608f3ae5-b1cf-4082-919f-3ead2712d478": {
       "type": "slideshow",
       "blocks": {
+        "6565bc0f-3939-488b-909e-7616f7e59da3": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pre-extra10-dk.gif",
+            "image_mobile": "shopify:\/\/shop_images\/pre_extra10-mb.gif",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "shopify:\/\/collections\/carteras",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_i8paid": {
           "type": "slide",
           "settings": {
@@ -26,26 +46,6 @@
             "box_align": "middle-center",
             "show_text_box": true,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "6565bc0f-3939-488b-909e-7616f7e59da3": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/new-dk.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/new-mb.jpg",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/collections\/carteras",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -92,8 +92,8 @@
         }
       },
       "block_order": [
-        "slide_i8paid",
         "6565bc0f-3939-488b-909e-7616f7e59da3",
+        "slide_i8paid",
         "slide_PieiRi",
         "slide_tCzm63"
       ],
