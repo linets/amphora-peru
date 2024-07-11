@@ -14,7 +14,6 @@
       "blocks": {
         "slide_i8paid": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PRE_CYBER_DK.gif",
             "image_mobile": "shopify:\/\/shop_images\/PRE_CYBER_MB.gif",
@@ -73,6 +72,7 @@
         },
         "slide_tCzm63": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_desk-chocolate_1.jpg",
             "image_mobile": "shopify:\/\/shop_images\/banner_MB-Chocolate.jpg",
