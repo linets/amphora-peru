@@ -16,13 +16,13 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/pre-extra10-dk.gif",
-            "image_mobile": "shopify:\/\/shop_images\/pre_extra10-mb.gif",
+            "image": "shopify:\/\/shop_images\/BANNER_CYBER_DESK.gif",
+            "image_mobile": "shopify:\/\/shop_images\/BANNER_CYBER_MOB.gif",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/carteras",
+            "link": "shopify:\/\/collections\/cyber-amphora",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -53,6 +53,7 @@
         },
         "slide_PieiRi": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/MID_SEASON_SALE-DK.gif",
             "image_mobile": "shopify:\/\/shop_images\/MID_SEASON_SALE-MB.gif",
