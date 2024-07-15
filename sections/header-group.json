@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_z3aEVP": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "PRE CYBER  AMPHORA  💥  TODO 30% OFF",
             "link": "shopify:\/\/collections\/cyber-amphora"
@@ -23,7 +24,6 @@
         },
         "announcement_hf6Kth": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "CYBER AMPHORA 🔥 HASTA 50% OFF 🔥 Descuentos exclusivos por CYBER",
             "link": ""

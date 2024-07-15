@@ -14,7 +14,6 @@
       "blocks": {
         "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/BANNER_CYBER_DESK.gif",
             "image_mobile": "shopify:\/\/shop_images\/BANNER_CYBER_MOB.gif",
@@ -34,6 +33,7 @@
         },
         "slide_i8paid": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/PRE_CYBER_DK.gif",
             "image_mobile": "shopify:\/\/shop_images\/PRE_CYBER_MB.gif",
@@ -344,6 +344,7 @@
       "blocks": {
         "column_b6GdbQ": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CARTERAS_CROSSBODIES--AW24.jpg",
             "title": "",
@@ -354,6 +355,7 @@
         },
         "column_YHLmqw": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/MOCHILAS-AW24.jpg",
             "title": "",
@@ -361,11 +363,33 @@
             "link_label": "",
             "link": "shopify:\/\/collections\/mochilas"
           }
+        },
+        "column_G3dm4m": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Amphora_carteras.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/carteras"
+          }
+        },
+        "column_xECJfX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Amphora_mochilas_dc991ff9-b711-4bd7-84d8-62285da3fe23.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/mochilas-mochilas"
+          }
         }
       },
       "block_order": [
         "column_b6GdbQ",
-        "column_YHLmqw"
+        "column_YHLmqw",
+        "column_G3dm4m",
+        "column_xECJfX"
       ],
       "settings": {
         "force_full_width": true,
