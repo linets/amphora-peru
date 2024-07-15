@@ -213,8 +213,8 @@
         "slide_CeHwqL": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOMCOLLECTION-BANNER.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/MOMCOLLECTION-MOBILE.jpg",
+            "image": "shopify:\/\/shop_images\/HITITEMS.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/HITITEMS_mobhile.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -231,6 +231,7 @@
         },
         "slide_hiKTCy": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner_Secundario_desk.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Banner_Secundario_Mobile.jpg",
