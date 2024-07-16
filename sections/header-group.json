@@ -16,7 +16,6 @@
       "blocks": {
         "announcement_z3aEVP": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "¡SOLO HOY! 💥  20% ADICIONAL con  el cupón  CYBER20 | Exclusivo Online",
             "link": "shopify:\/\/collections\/cyber-amphora"
@@ -24,6 +23,7 @@
         },
         "announcement_hf6Kth": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "CYBER AMPHORA 🔥 HASTA 50% OFF 🔥 Descuentos exclusivos por CYBER",
             "link": ""

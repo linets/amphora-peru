@@ -12,9 +12,28 @@
     "608f3ae5-b1cf-4082-919f-3ead2712d478": {
       "type": "slideshow",
       "blocks": {
-        "slide_tCzm63": {
+        "slide_i8paid": {
           "type": "slide",
           "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Desktop-enviogratis.gif",
+            "image_mobile": "shopify:\/\/shop_images\/Mobile-enviogratis.gif",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify:\/\/collections\/cyber-amphora",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_tCzm63": {
+          "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/extra20-banner-desktop.gif",
             "image_mobile": "shopify:\/\/shop_images\/extra20-banner-desktop.gif",
@@ -34,6 +53,7 @@
         },
         "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/BANNER_CYBER_DESK.gif",
             "image_mobile": "shopify:\/\/shop_images\/BANNER_CYBER_MOB.gif",
@@ -46,26 +66,6 @@
             "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_i8paid": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/PRE_CYBER_DK.gif",
-            "image_mobile": "shopify:\/\/shop_images\/PRE_CYBER_MB.gif",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "shopify:\/\/collections\/cyber-amphora",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -93,9 +93,9 @@
         }
       },
       "block_order": [
+        "slide_i8paid",
         "slide_tCzm63",
         "6565bc0f-3939-488b-909e-7616f7e59da3",
-        "slide_i8paid",
         "slide_PieiRi"
       ],
       "settings": {
