@@ -14,15 +14,14 @@
       "blocks": {
         "slide_i8paid": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Desktop-enviogratis.gif",
-            "image_mobile": "shopify:\/\/shop_images\/Mobile-enviogratis.gif",
+            "image": "shopify:\/\/shop_images\/sale-banner-web_2.gif",
+            "image_mobile": "shopify:\/\/shop_images\/sale-banner-MOBILE_1.gif",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
-            "link": "shopify:\/\/collections\/cyber-amphora",
+            "link": "shopify:\/\/collections\/sale",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -35,13 +34,13 @@
         "slide_tCzm63": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/extra20-banner-desktop.gif",
-            "image_mobile": "shopify:\/\/shop_images\/extra20-banner-desktop.gif",
+            "image": "shopify:\/\/shop_images\/NIGHT_EDITION_DK.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/NIGHT_EDITION_MB.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/all-2",
+            "link": "shopify:\/\/collections\/carteras-crossbodies",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -212,6 +211,7 @@
       "blocks": {
         "slide_CeHwqL": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/HITITEMS.jpg",
             "image_mobile": "shopify:\/\/shop_images\/HITITEMS_mobhile.jpg",
@@ -231,7 +231,6 @@
         },
         "slide_hiKTCy": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Banner_Secundario_desk.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Banner_Secundario_Mobile.jpg",
@@ -344,7 +343,6 @@
       "blocks": {
         "column_b6GdbQ": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/CARTERAS_CROSSBODIES--AW24.jpg",
             "title": "",
@@ -355,7 +353,6 @@
         },
         "column_YHLmqw": {
           "type": "column",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/MOCHILAS-AW24.jpg",
             "title": "",
@@ -366,6 +363,7 @@
         },
         "column_G3dm4m": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Amphora_carteras.jpg",
             "title": "",
@@ -376,6 +374,7 @@
         },
         "column_xECJfX": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Amphora_mochilas_dc991ff9-b711-4bd7-84d8-62285da3fe23.jpg",
             "title": "",
