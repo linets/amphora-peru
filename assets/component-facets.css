@@ -1174,6 +1174,7 @@ details.menu-opening .mobile-facets__close svg {
   display: flex;
   flex-direction: column;
   overflow-y: auto;
+  margin-top: 60px;
 }
 
 .mobile-facets__details[open] .icon-caret {
