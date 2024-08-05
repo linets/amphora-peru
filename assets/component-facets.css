@@ -1561,7 +1561,7 @@ input.mobile-facets__checkbox {
 }
 
 .list-menu__item--active>label {
-  box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.4);
+  box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.9);
 }
 
 @media screen and (max-width: 1000px) {
@@ -1570,6 +1570,6 @@ input.mobile-facets__checkbox {
   }
 
   .list-menu__item--active {
-    box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.4);
+    box-shadow: 0 0 0 0.2rem rgba(var(--color-foreground), 0.9);
   }
 }
