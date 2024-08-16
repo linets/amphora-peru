@@ -15,8 +15,8 @@
         "6565bc0f-3939-488b-909e-7616f7e59da3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/NIGHT-SALE-DESKTOP_1.gif",
-            "image_mobile": "shopify:\/\/shop_images\/NIGHT-SALE-MOBILE.gif",
+            "image": "shopify:\/\/shop_images\/EXTRA20-DK.gif",
+            "image_mobile": "shopify:\/\/shop_images\/EXTRA20-MB.gif",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -33,6 +33,7 @@
         },
         "slide_i8paid": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/sale-banner-web_2.gif",
             "image_mobile": "shopify:\/\/shop_images\/sale-banner-MOBILE_1.gif",
