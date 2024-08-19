@@ -229,7 +229,6 @@
         },
         "slide_hiKTCy": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Banners_Desk_Trinus_Men.jpg",
             "image_mobile": "shopify:\/\/shop_images\/Banners_Mobile_Trinus_Men.jpg",
