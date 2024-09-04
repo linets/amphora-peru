@@ -2605,6 +2605,31 @@ product-info .loading__spinner:not(.hidden)~*,
   background: rgba(var(--color-foreground), 0.5);
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 135px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  font-size: 12px;
+  height: auto;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 /* Search */
 menu-drawer+.header__search {
   display: none;
