@@ -243,13 +243,20 @@ details[open].menu-opening > .menu-drawer__submenu {
   margin: 0;
 }
 
-.menu-drawer__account .icon-account {
+.menu-drawer__account .icon-account,
+.menu-drawer__account .icon-location {
   height: 2rem;
   width: 2rem;
   margin-right: 1rem;
 }
 
-.menu-drawer__account:hover .icon-account {
+.menu-drawer__account .icon-location {
+  stroke: black;
+  stroke-width: .5;
+}
+
+.menu-drawer__account:hover .icon-account,
+.menu-drawer__account:hover .icon-location {
   transform: scale(1.07);
 }
 
