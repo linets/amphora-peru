@@ -12,31 +12,11 @@
     "608f3ae5-b1cf-4082-919f-3ead2712d478": {
       "type": "slideshow",
       "blocks": {
-        "6565bc0f-3939-488b-909e-7616f7e59da3": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EXTRA20-DK.gif",
-            "image_mobile": "shopify:\/\/shop_images\/EXTRA20-MB.gif",
-            "heading": "",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/collections\/night-sale",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_i8paid": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/sale-banner-web_2.gif",
-            "image_mobile": "shopify:\/\/shop_images\/sale-banner-MOBILE_1.gif",
+            "image": "shopify:\/\/shop_images\/SALEAW24-DK.gif",
+            "image_mobile": "shopify:\/\/shop_images\/SALEAW24-MB.gif",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -72,6 +52,7 @@
         },
         "slide_tCzm63": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/NIGHT_EDITION_DK.jpg",
             "image_mobile": "shopify:\/\/shop_images\/NIGHT_EDITION_MB.jpg",
@@ -91,7 +72,6 @@
         }
       },
       "block_order": [
-        "6565bc0f-3939-488b-909e-7616f7e59da3",
         "slide_i8paid",
         "slide_PieiRi",
         "slide_tCzm63"
@@ -211,13 +191,13 @@
         "slide_CeHwqL": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_Desk_Trinus_Version02.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banners_Mobile_Trinus_Version02.jpg",
+            "image": "shopify:\/\/shop_images\/Banner_Desk_113346f0-6be2-4ee4-af35-9520e1c6e70c.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Banner_Mobile_3_bde86108-2f53-4cd5-b160-d94e993c52be.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
-            "link": "shopify:\/\/collections\/trinus",
+            "link": "https:\/\/amphora.pe\/search?q=verde&options%5Bprefix%5D=last",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
