@@ -139,6 +139,15 @@
                 -%}
               </a>
             {%- endif -%}
+            <a
+              href="https://enlinea.dinet.com.pe/Mantenimiento/Login.aspx"
+              class="menu-drawer__account link focus-inset h5 medium-hide large-up-hide"
+            >
+              {% render 'icon-location' %}
+              {%- liquid
+                echo 'customer.location' | t
+              -%}
+            </a>
             {%- if localization.available_countries or localization.available_languages -%}
               <div class="menu-drawer__localization header-localization">
                 {%- if localization.available_countries and localization.available_countries.size > 1 -%}

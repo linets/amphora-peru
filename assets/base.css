@@ -2578,8 +2578,12 @@ product-info .loading__spinner:not(.hidden)~*,
 .header__icon .icon {
   height: 2rem;
   width: 2rem;
-  fill: none;
   vertical-align: middle;
+}
+
+.header__icon .icon-location {
+  stroke: black;
+  stroke-width: 0.5;
 }
 
 .header__icon,
@@ -2603,6 +2607,31 @@ product-info .loading__spinner:not(.hidden)~*,
   display: block;
   position: absolute;
   background: rgba(var(--color-foreground), 0.5);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 135px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  font-size: 12px;
+  height: auto;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 /* Search */
