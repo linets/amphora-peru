@@ -216,7 +216,7 @@
 
                                 <label
                                   style="background: {{customColor}}"
-                                  class="list-menu_color {{value.value}}"
+                                  class="list-menu_color {{value.value | replace: ' ', '-'}}"
                                   for="Filter-{{ filter.param_name | escape }}-{{ forloop.index }}"
                                   alt="{{ value.value }}"
                                 >
@@ -224,8 +224,8 @@
                                     .list-menu_color{
                                       position: relative;
                                       overflow: initial;
-                                    } 
-                                    .list-menu_color.{{value.value}}::after{
+                                    }
+                                    .list-menu_color.{{value.value | replace: ' ', '-'}}::after{
                                       content: "{{value.value}}";
                                       border: 1px solid #000;
                                       position: absolute;
@@ -237,9 +237,10 @@
                                       background: #fff;
                                       font-weight: bold;
                                       display: none;
+                                      text-wrap: nowrap;
                                       z-index: 9;
                                     }
-                                    .list-menu_color.{{value.value}}:hover::after{ display: block; }
+                                    .list-menu_color.{{value.value | replace: ' ', '-'}}:hover::after{ display: block; }
                                   {% endstyle %}
                                   <input
                                     type="checkbox"
@@ -500,9 +501,7 @@
                               max="{{ filter.range_max | money_without_currency | replace: ',', '' }}"
                             {% endif %}
                           >
-                          <label class="field__label" for="Filter-{{ filter.label | escape }}-LTE">
-                            Hasta
-                          </label>
+                          <label class="field__label" for="Filter-{{ filter.label | escape }}-LTE"> Hasta </label>
                         </div>
                       </price-range>
                     </div>
@@ -804,12 +803,12 @@
                               <li class="mobile-facets__item list-menu__item">
                                 {%- if filter.label == 'Color' -%}
                                   {%- assign customColor = value.value %}
-                                    {% for item in shop.metaobjects.custom_colors.values %}
-                                      {% if item.combinations contains value.value %}
-                                        {% liquid
-                                          assign customColor = item.color
-                                        %}
-                                      {% endif %}
+                                  {% for item in shop.metaobjects.custom_colors.values %}
+                                    {% if item.combinations contains value.value %}
+                                      {% liquid
+                                        assign customColor = item.color
+                                      %}
+                                    {% endif %}
                                   {% endfor %}
                                   <label
                                     style="background: {{customColor}}"
