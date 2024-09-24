@@ -15,13 +15,13 @@
         "slide_i8paid": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SALEAW24-DK.gif",
-            "image_mobile": "shopify:\/\/shop_images\/SALEAW24-MB.gif",
+            "image": "shopify://shop_images/SALEAW24-DK.gif",
+            "image_mobile": "shopify://shop_images/SALEAW24-MB.gif",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
-            "link": "shopify:\/\/collections\/sale",
+            "link": "shopify://collections/sale",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -34,13 +34,13 @@
         "slide_PieiRi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SS25-DK.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/SS25-MB.jpg",
+            "image": "shopify://shop_images/Banner-desktop_SS25.jpg",
+            "image_mobile": "shopify://shop_images/Banner-Mobile_SS25.jpg",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/new-in",
+            "link": "shopify://collections/new-in",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -54,13 +54,13 @@
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/NIGHT_EDITION_DK.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/NIGHT_EDITION_MB.jpg",
+            "image": "shopify://shop_images/NIGHT_EDITION_DK.jpg",
+            "image_mobile": "shopify://shop_images/NIGHT_EDITION_MB.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "shopify:\/\/collections\/carteras-crossbodies",
+            "link": "shopify://collections/carteras-crossbodies",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -93,61 +93,61 @@
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/cartera_AW24_vs_2.jpg",
+            "image": "shopify://shop_images/cartera_AW24_vs_2.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/carteras-carteras-dos-asas"
+            "link": "shopify://collections/carteras-carteras-dos-asas"
           }
         },
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mochila-AW24.jpg",
+            "image": "shopify://shop_images/mochila-AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/mochilas"
+            "link": "shopify://collections/mochilas"
           }
         },
         "template--21506872606913__fd8003f0-fa91-4c7d-8f99-2bb233dd3615-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/crossbody_AW24_2.0.jpg",
+            "image": "shopify://shop_images/crossbody_AW24_2.0.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/carteras-crossbodies"
+            "link": "shopify://collections/carteras-crossbodies"
           }
         },
         "column_wtWDwW": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/billeteras_AW24.jpg",
+            "image": "shopify://shop_images/billeteras_AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/billeteras"
+            "link": "shopify://collections/billeteras"
           }
         },
         "column_PeWwAD": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/joyeria_AW24.jpg",
+            "image": "shopify://shop_images/joyeria_AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/accesorios-joyeria"
+            "link": "shopify://collections/accesorios-joyeria"
           }
         },
         "column_YY8gG4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hanging_AW24.jpg",
+            "image": "shopify://shop_images/hanging_AW24.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/accesorios"
+            "link": "shopify://collections/accesorios"
           }
         }
       },
@@ -191,13 +191,13 @@
         "slide_CeHwqL": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banner_Desk_113346f0-6be2-4ee4-af35-9520e1c6e70c.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banner_Mobile_3_bde86108-2f53-4cd5-b160-d94e993c52be.jpg",
+            "image": "shopify://shop_images/Banner_Desk_113346f0-6be2-4ee4-af35-9520e1c6e70c.jpg",
+            "image_mobile": "shopify://shop_images/Banner_Mobile_3_bde86108-2f53-4cd5-b160-d94e993c52be.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
-            "link": "https:\/\/amphora.pe\/search?q=verde&options%5Bprefix%5D=last",
+            "link": "https://amphora.pe/search?q=verde&options%5Bprefix%5D=last",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -210,13 +210,13 @@
         "slide_hiKTCy": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Banners_Desk_Trinus_Men.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Banners_Mobile_Trinus_Men.jpg",
+            "image": "shopify://shop_images/Banners_Desk_Trinus_Men.jpg",
+            "image_mobile": "shopify://shop_images/Banners_Mobile_Trinus_Men.jpg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "https:\/\/amphora.pe\/collections\/trinus?sort_by=best-selling&filter.p.m.custom.genero=Hombre&filter.v.price.gte=&filter.v.price.lte=",
+            "link": "https://amphora.pe/collections/trinus?sort_by=best-selling&filter.p.m.custom.genero=Hombre&filter.v.price.gte=&filter.v.price.lte=",
             "button_style_secondary": false,
             "box_align": "middle-right",
             "show_text_box": true,
@@ -246,8 +246,8 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner_Secundario_desk.jpg",
-        "image_2": "shopify:\/\/shop_images\/Banner_Secundario_Mobile.jpg",
+        "image": "shopify://shop_images/Banner_Secundario_desk.jpg",
+        "image_2": "shopify://shop_images/Banner_Secundario_Mobile.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
@@ -264,14 +264,14 @@
       "type": "apps",
       "blocks": {
         "retail_rocket_personalization_markups_izrt3q": {
-          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "type": "shopify://apps/retail-rocket-personalization/blocks/markups/eb06115a-3169-4b5b-a921-16aac205bb7d",
           "settings": {
             "rrMarkupCode": "65df285b682ae6945d3f6a02",
             "rrEmptyMarkupCode": ""
           }
         },
         "retail_rocket_personalization_markups_ExR6wz": {
-          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "type": "shopify://apps/retail-rocket-personalization/blocks/markups/eb06115a-3169-4b5b-a921-16aac205bb7d",
           "settings": {
             "rrMarkupCode": "65df27048e6a3ed9214d722b",
             "rrEmptyMarkupCode": ""
@@ -322,43 +322,43 @@
         "column_b6GdbQ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CARTERAS_CROSSBODIES--AW24.jpg",
+            "image": "shopify://shop_images/CARTERAS-SS25.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/carteras-crossbodies"
+            "link": "shopify://collections/carteras-crossbodies"
           }
         },
         "column_YHLmqw": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MOCHILAS-AW24.jpg",
+            "image": "shopify://shop_images/MOCHILAS-SS25.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/mochilas"
+            "link": "shopify://collections/mochilas"
           }
         },
         "column_G3dm4m": {
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Amphora_carteras.jpg",
+            "image": "shopify://shop_images/Amphora_carteras.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/carteras"
+            "link": "shopify://collections/carteras"
           }
         },
         "column_xECJfX": {
           "type": "column",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Amphora_mochilas_dc991ff9-b711-4bd7-84d8-62285da3fe23.jpg",
+            "image": "shopify://shop_images/Amphora_mochilas_dc991ff9-b711-4bd7-84d8-62285da3fe23.jpg",
             "title": "",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/collections\/mochilas-mochilas"
+            "link": "shopify://collections/mochilas-mochilas"
           }
         }
       },
@@ -391,7 +391,7 @@
       "type": "apps",
       "blocks": {
         "retail_rocket_personalization_markups_dXWTew": {
-          "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/markups\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+          "type": "shopify://apps/retail-rocket-personalization/blocks/markups/eb06115a-3169-4b5b-a921-16aac205bb7d",
           "settings": {
             "rrMarkupCode": "65df28388e6a3ed9214d725e",
             "rrEmptyMarkupCode": ""
@@ -441,8 +441,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "custm_video_url": "https:\/\/www.youtube.com\/embed\/F0NdpNXrIG4?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=F0NdpNXrIG4&enablejsapi=1&origin=https%3A%2F%2Fwww.ziolstore.com&widgetid=1",
-        "video_url": "",
+        "custm_video_url": "https://www.youtube.com/embed/Z43oSNrT3J4?si=9zq31si_lJ01DTk0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share",
+        "video_url": "https://www.youtube.com/watch?v=Z43oSNrT3J4",
         "description": "",
         "full_width": true,
         "color_scheme": "",
@@ -486,9 +486,9 @@
         "column_jeKyUM": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Envi_o_a_Domicilio_1_240x_fb52a586-6f9b-4682-aa6d-eef4dcad4af9.png",
-            "title": "<strong>ENVIO A NIVEL NACIONAL<\/strong>",
-            "text": "<p>Despachos a nivel nacional.<\/p>",
+            "image": "shopify://shop_images/Envi_o_a_Domicilio_1_240x_fb52a586-6f9b-4682-aa6d-eef4dcad4af9.png",
+            "title": "<strong>ENVIO A NIVEL NACIONAL</strong>",
+            "text": "<p>Despachos a nivel nacional.</p>",
             "link_label": "",
             "link": ""
           }
@@ -496,9 +496,9 @@
         "column_nBq4iX": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cambios_y_Devoluciones_1_240x_88473078-3d87-499e-90b0-777452f2a71f.png",
-            "title": "<strong>CAMBIOS Y DEVOLUCIONES<\/strong>",
-            "text": "<p>Hasta 30 dias después de recibida la compra<\/p>",
+            "image": "shopify://shop_images/Cambios_y_Devoluciones_1_240x_88473078-3d87-499e-90b0-777452f2a71f.png",
+            "title": "<strong>CAMBIOS Y DEVOLUCIONES</strong>",
+            "text": "<p>Hasta 30 dias después de recibida la compra</p>",
             "link_label": "",
             "link": ""
           }
@@ -506,9 +506,9 @@
         "column_HKPHdV": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Financiacio_n_1_240x_e3c3e23b-d01d-47d6-8690-d97cb7dcf03d.png",
-            "title": "<strong>COMPRA SEGURA<\/strong>",
-            "text": "<p>Con cualquier medio de pago<\/p>",
+            "image": "shopify://shop_images/Financiacio_n_1_240x_e3c3e23b-d01d-47d6-8690-d97cb7dcf03d.png",
+            "title": "<strong>COMPRA SEGURA</strong>",
+            "text": "<p>Con cualquier medio de pago</p>",
             "link_label": "",
             "link": ""
           }
@@ -516,9 +516,9 @@
         "column_9mV8ax": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Pick_up_1_240x_e3e7e410-a157-49a0-980a-9df9706e42ea.png",
-            "title": "<strong>RETIRO EN TIENDA<\/strong>",
-            "text": "<p>Sin costo de envio y en tiendas Amphora<\/p>",
+            "image": "shopify://shop_images/Pick_up_1_240x_e3e7e410-a157-49a0-980a-9df9706e42ea.png",
+            "title": "<strong>RETIRO EN TIENDA</strong>",
+            "text": "<p>Sin costo de envio y en tiendas Amphora</p>",
             "link_label": "",
             "link": ""
           }
