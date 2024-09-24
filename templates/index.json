@@ -12,25 +12,6 @@
     "608f3ae5-b1cf-4082-919f-3ead2712d478": {
       "type": "slideshow",
       "blocks": {
-        "slide_i8paid": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/SALEAW24-DK.gif",
-            "image_mobile": "shopify://shop_images/SALEAW24-MB.gif",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "shopify://collections/sale",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_PieiRi": {
           "type": "slide",
           "settings": {
@@ -44,6 +25,25 @@
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_i8paid": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/SALEAW24-DK.gif",
+            "image_mobile": "shopify://shop_images/SALEAW24-MB.gif",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "shopify://collections/sale",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
@@ -72,8 +72,8 @@
         }
       },
       "block_order": [
-        "slide_i8paid",
         "slide_PieiRi",
+        "slide_i8paid",
         "slide_tCzm63"
       ],
       "settings": {
@@ -441,7 +441,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "custm_video_url": "https://www.youtube.com/embed/Z43oSNrT3J4?si=v_4NWM5X5-V3T3Il\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\"",
+        "custm_video_url": "https://www.youtube.com/embed/Z43oSNrT3J4?autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=Z43oSNrT3J4",
         "video_url": "",
         "description": "",
         "full_width": true,
