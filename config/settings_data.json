@@ -9,9 +9,9 @@
 */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/logo-footer.webp",
+    "logo": "shopify://shop_images/logo-footer.webp",
     "logo_width": 200,
-    "favicon": "shopify:\/\/shop_images\/favicon_150x_598d88fc-c3a9-46c8-aca1-1bd703c1fe3a.jpg",
+    "favicon": "shopify://shop_images/favicon_150x_598d88fc-c3a9-46c8-aca1-1bd703c1fe3a.jpg",
     "type_header_font": "poppins_n4",
     "heading_scale": 100,
     "type_body_font": "poppins_n4",
@@ -108,12 +108,12 @@
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "https:\/\/www.facebook.com\/amphora.peru\/",
-    "social_instagram_link": "https:\/\/www.instagram.com\/amphora_peru\/?hl=es",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@amphora9148",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@amphora_peru",
+    "social_facebook_link": "https://www.facebook.com/amphora.peru/",
+    "social_instagram_link": "https://www.instagram.com/amphora_peru/?hl=es",
+    "social_youtube_link": "https://www.youtube.com/@amphora9148",
+    "social_tiktok_link": "https://www.tiktok.com/@amphora_peru",
     "social_twitter_link": "",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
@@ -127,7 +127,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/logo-negro.png",
+    "checkout_logo_image": "shopify://shop_images/logo-negro.png",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -147,14 +147,14 @@
     ],
     "blocks": {
       "3162008616520556380": {
-        "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/main-code\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+        "type": "shopify://apps/retail-rocket-personalization/blocks/main-code/eb06115a-3169-4b5b-a921-16aac205bb7d",
         "disabled": false,
         "settings": {
           "rrPartnerId": "5f7e22d997a52806c8f6103b"
         }
       },
       "13699062826762247329": {
-        "type": "shopify:\/\/apps\/retail-rocket-personalization\/blocks\/tracking-codes\/eb06115a-3169-4b5b-a921-16aac205bb7d",
+        "type": "shopify://apps/retail-rocket-personalization/blocks/tracking-codes/eb06115a-3169-4b5b-a921-16aac205bb7d",
         "disabled": false,
         "settings": {
           "rrExitIntentBar": "",
@@ -172,6 +172,12 @@
           ],
           "tagstosend": "",
           "metafieldtosend": ""
+        }
+      },
+      "8208493610395315515": {
+        "type": "shopify://apps/dondy-whatsapp-chat-marketing/blocks/app-block/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
+        "disabled": false,
+        "settings": {
         }
       }
     },
@@ -400,7 +406,7 @@
       "sale_badge_color_scheme": "accent-2",
       "sold_out_badge_color_scheme": "inverse",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",
